@@ -31,19 +31,19 @@ let package = Package(
         .package(url: "https://github.com/kewlbear/BLAS-LAPACK-AppStore-Workaround.git", .branch("main")),
     ],
     targets: [
-        .binaryTarget(name: "Assimp", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/Assimp.xcframework.zip", checksum: "6904cc87d6001158a44caffb854e32b30e29adb606f46472d5f8ce00b9721a24"),
-        .binaryTarget(name: "Faiss", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/Faiss.xcframework.zip", checksum: "1d223aee5b8c550f67e937da850e9a612fbfd358b2b9573b1c9e377f29e59a72"),
-        .binaryTarget(name: "IrrXML", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/IrrXML.xcframework.zip", checksum: "fd60a0ad4f9330f7a6c9553621e0ba4cba1d678a89bbb2b5bfce730f8b39235b"),
-        .binaryTarget(name: "JPEG", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/JPEG.xcframework.zip", checksum: "1a9cd104c1600703a52d6917a7c2213417f6c456ccef06688580b9f6b8bd4503"),
-        .binaryTarget(name: "jsoncpp", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/jsoncpp.xcframework.zip", checksum: "350af41078a47080385fd60e5ecc2f33c2cb21a91557cb6b5233f38b306f50a4"),
-        .binaryTarget(name: "libOpen3D_3rdparty_liblzf.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220322034617/libOpen3D_3rdparty_liblzf.a.xcframework.zip", checksum: "b8743bb8d3eaa06f44afba1a9d40c729a1fe9fd33d70a49e6f99bf87cfbbeb80"),
-        .binaryTarget(name: "libOpen3D_3rdparty_qhull_r.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220322034617/libOpen3D_3rdparty_qhull_r.a.xcframework.zip", checksum: "977969ac72ce6a58c681f06e6b9d3ced0048b0841d1830f0bb8778a3416b7bf5"),
-        .binaryTarget(name: "libOpen3D_3rdparty_qhullcpp.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220322034617/libOpen3D_3rdparty_qhullcpp.a.xcframework.zip", checksum: "1b6acfb484710186a112c0bf3d57bcdd2bf1d050b330dd73888e7dbb7ff82c20"),
-        .binaryTarget(name: "libOpen3D_3rdparty_rply.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220322034617/libOpen3D_3rdparty_rply.a.xcframework.zip", checksum: "d3ef3e608cd8459d6d7371978929f55eee8e353b3772db0ce81f388430120dd1"),
-        .binaryTarget(name: "libOpen3D.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220322034617/libOpen3D.a.xcframework.zip", checksum: "57ef73f16d19bcd9d14a5f7cfabdcc54a07c506015820e2326af39b642c10809"),
-        .binaryTarget(name: "png", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/png.xcframework.zip", checksum: "0fd051316b200e5663d6d92e2efb24d0c012b417119733be9a498559cae173ea"),
-        .binaryTarget(name: "pybind.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220322034617/pybind.a.xcframework.zip", checksum: "4dc1926710aaa6dd86c97a2b6d6b1793f6526747e8f9d80a0cfdc7bc5b335fe3"),
-        .binaryTarget(name: "TBB", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/TBB.xcframework.zip", checksum: "9c5d9a4aa45ca15cec514a36faf10709a44af8e780441bf9c6d82a0fd0c64e60"),
+        .binaryTarget(name: "Assimp", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/Assimp.xcframework.zip", checksum: "b21329d4dd574bb9ce3f3092718ee3d064685d185c3f516cb04b522341438b78"),
+        .binaryTarget(name: "Faiss", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/Faiss.xcframework.zip", checksum: "115339c58ae57403187bc0e99e1ef244595ac4790d8ef138bb80610cee90be36"),
+        .binaryTarget(name: "IrrXML", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/IrrXML.xcframework.zip", checksum: "078b5760aa495d17ddd0bf3c951edb438f0ebb02c7e509fe0e8196e1ab82b411"),
+        .binaryTarget(name: "JPEG", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/JPEG.xcframework.zip", checksum: "3a871e11dcde19895b015107aa5b6028063ca0eda0e2054fe05f9ce3cfd5e183"),
+        .binaryTarget(name: "jsoncpp", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/jsoncpp.xcframework.zip", checksum: "662b7044dd4b47ee1559d3cbbe33e57b431f2d3085018a595f7481a08b8c43b7"),
+        .binaryTarget(name: "libOpen3D_3rdparty_liblzf.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/libOpen3D_3rdparty_liblzf.a.xcframework.zip", checksum: "8512c0fdfbcbf55f151648ae18f6883fc17bbfd9b77dc49f4030abda454245fb"),
+        .binaryTarget(name: "libOpen3D_3rdparty_qhull_r.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/libOpen3D_3rdparty_qhull_r.a.xcframework.zip", checksum: "3eb28f579f6edd584fc9e54027806c7e1f117c7c386a94a4098e825047fae592"),
+        .binaryTarget(name: "libOpen3D_3rdparty_qhullcpp.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/libOpen3D_3rdparty_qhullcpp.a.xcframework.zip", checksum: "499c9ad3147f0df45fa84db89e2f7e3602486bf4da51985b41a4c822be55178a"),
+        .binaryTarget(name: "libOpen3D_3rdparty_rply.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/libOpen3D_3rdparty_rply.a.xcframework.zip", checksum: "a882ed95eefd759ddeb2dc15b5021ce42e4aa0a2df58a8fed54334c18680ab55"),
+        .binaryTarget(name: "libOpen3D.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/libOpen3D.a.xcframework.zip", checksum: "libOpen3D.a.xcframework_CHECKSUM"),
+        .binaryTarget(name: "png", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/png.xcframework.zip", checksum: "332df26a845cab19716d9257e6b6ca3342b3ce3f5a1ac5bf149ee998e2376a42"),
+        .binaryTarget(name: "pybind.a", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/pybind.a.xcframework.zip", checksum: "pybind.a.xcframework_CHECKSUM"),
+        .binaryTarget(name: "TBB", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20230518161923/TBB.xcframework.zip", checksum: "4dea270a3d00d359bb77504011942bb44ab1a3180b0ecc7f2598af8a72534fc8"),
         .target(
             name: "LinkOpen3D",
             dependencies: [
@@ -65,7 +65,7 @@ let package = Package(
                 "BLAS-LAPACK-AppStore-Workaround",
             ],
             linkerSettings: [
-                .linkedLibrary("stdc++"), 	
+                .linkedLibrary("stdc++"),
             ]
         ),
         .target(
