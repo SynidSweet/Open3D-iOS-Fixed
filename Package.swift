@@ -65,7 +65,7 @@ let package = Package(
                 "BLAS-LAPACK-AppStore-Workaround",
             ],
             linkerSettings: [
-                .linkedLibrary("stdc++"),
+                .linkedLibrary("stdc++"), 	
             ]
         ),
         .target(
