@@ -45,7 +45,7 @@ let package = Package(
         .binaryTarget(name: "pybind.a", url: "https://github.com/SynidSweet/Open3D-iOS-Fixed/releases/download/TAG/pybind.a.xcframework.zip", checksum: "pybind.a.xcframework_CHECKSUM"),
         .binaryTarget(name: "TBB", url: "https://github.com/SynidSweet/Open3D-iOS-Fixed/releases/download/TAG/TBB.xcframework.zip", checksum: "TBB.xcframework_CHECKSUM"),
         .target(
-            name: "LinkOpen3D",
+            name: "LinkOpen3D", 
             dependencies: [
                 "NumPy-iOS",
                 "LAPACKE-iOS",
