@@ -1,4 +1,5 @@
 
+mkdir Open3D
 cd Open3D
 
 wget https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20220804014308/Assimp.xcframework.zip
