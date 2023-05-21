@@ -21,7 +21,7 @@ let package = Package(
                 "libOpen3D_3rdparty_rply.a",
                 "libOpen3D.a",
                 "png",
-                "pybind.a", 
+                "pybind.a", 	
                 "TBB",
             ]),
     ],
