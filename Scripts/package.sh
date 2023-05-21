@@ -4,6 +4,8 @@ cd Open3D
 
 sed s/TAG/$TAG/g ../Package.swift.in > Package.swift
 
+#sed s:kewlbear/Open3D-iOS:SynidSweet/Open3D-iOS-Fixed:g Package.swift
+
 rm *.zip
 
 for f in *.xcframework
